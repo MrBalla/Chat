@@ -114,7 +114,7 @@ body{
     font-size: 2.4rem;
 }
 .chat_messages>div{
-    padding: 5px;
+    padding: 0px;
     max-width: 250px;
     width: 100%;
     font-size: 0.9rem;
