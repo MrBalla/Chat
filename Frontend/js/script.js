@@ -89,7 +89,7 @@ const handleSubmit = (event)=>{
     login.style.display="none";
     chat.style.display="flex";
     
-    websocket= new WebSocket("ws://localhost:8080");
+    websocket= new WebSocket("ws://chat-pyyy.onrender.com");
     websocket.onmessage = processMessage;
 
 }
